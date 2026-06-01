@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int a,hundreds_digit;
+printf("enter the three digit number:");
+scanf("%d",&a);
+hundreds_digit =(a/100)%10;
+printf("hundreds_digit=%d",hundreds_digit);
+    return 0;
+}
