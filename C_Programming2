@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int a,sub;
+printf("enter the number:");
+scanf("%d",&a);
+sub=a-5;
+printf("sub=%d",sub);
+    return 0;
+}
