@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int a,product;
+printf("enter the number:");
+scanf("%d",&a);
+product=a*3;
+printf("product=%d",product);
+    return 0;
+}
