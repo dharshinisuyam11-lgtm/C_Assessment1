@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int a,remainder;
+printf("enter the number:");
+scanf("%d",&a);
+remainder=a%8;
+printf("remainder=%d",remainder);
+    return 0;
+}
