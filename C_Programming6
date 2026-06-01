@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 int a,ones_digit;
-printf("enter the number:");
+printf("enter the two digit number:");
 scanf("%d",&a);
 ones_digit =a%10;
 printf("ones_digit=%d",ones_digit);
