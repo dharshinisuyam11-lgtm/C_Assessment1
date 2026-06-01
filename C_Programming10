@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int a,tens_digit;
+printf("enter the three digit number:");
+scanf("%d",&a);
+tens_digit =(a/10)%10;
+printf("tens_digit=%d",tens_digit);
+    return 0;
+}
