@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int a,ten_digit;
+printf("enter the two digit number:");
+scanf("%d",&a);
+ten_digit =(a/10)%10;
+printf("ten_digit=%d",ten_digit);
+    return 0;
+}
