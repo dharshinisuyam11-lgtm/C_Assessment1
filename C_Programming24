@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int a, result, hundreds, ones;
+    printf("ener the number");
+    scanf("%d", &a);
+    result = a - 5;
+    hundreds = (result / 100) % 10;
+    ones = result % 10;
+    (hundreds % 2) && (ones % 2) && printf("%d", result);
+    return 0;
+}
