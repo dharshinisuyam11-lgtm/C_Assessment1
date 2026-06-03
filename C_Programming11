@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int n, sum;
+    scanf("%d", &n);
+    printf("enter the num:");
+    sum = (a / 10) + (a % 10);
+    printf("%d", sum);
+    return 0;
+}
