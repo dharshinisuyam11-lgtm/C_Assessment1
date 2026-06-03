@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int a, result, tens;
+    printf("enter the number:");
+    scanf("%d", &n);
+    result = a- 5;
+    tens = (result / 10) % 10;
+    (tens % 2) && printf("%d", result);
+    return 0;
+}
