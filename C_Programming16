@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int a, result;
+    printf("enter the number);
+    scanf("%d", &a);
+    result = (a / 100) * 100 + (a % 10) * 10 + (a / 10) % 10;
+    printf("%d", result);
+    return 0;
+}
